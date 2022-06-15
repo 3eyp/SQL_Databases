@@ -1,9 +1,11 @@
+
 from designers import Ui_MainWindow
 from PyQt5 import QtWidgets
 from PyQt5.QtGui import QIcon,QPixmap
 from PyQt5.QtWidgets import QInputDialog,QLineEdit,QMessageBox,QLabel
 import sys
 import mysql.connector
+
 
 class MyApp(QtWidgets.QMainWindow):
     def __init__(self):
