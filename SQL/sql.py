@@ -18,7 +18,6 @@ class MyApp(QtWidgets.QMainWindow):
 
         self.setStyleSheet("#MainWindow{border-image: url(:/icons/yazilim.png)};")
 
-
         label=QLabel(self)
         label.setPixmap(QPixmap(":/icons/py.png"))
         label.move(747,15)
