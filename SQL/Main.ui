@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1401</width>
+    <height>926</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget_data">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>370</y>
+      <width>256</width>
+      <height>391</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_sql">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>400</y>
+      <width>256</width>
+      <height>341</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>760</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Verileri Gör</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_data">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>320</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Veriler</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_sql">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>330</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ulke_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>850</y>
+      <width>691</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>@ Verileri çekmeden önce verileri görmeyi unutmayınız.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ulke_3">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>20</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>@ python3740</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ulke">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>350</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dil</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>390</y>
+      <width>111</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="radio_tr">
+       <property name="text">
+        <string>Türkçe</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radio_england">
+       <property name="text">
+        <string>English</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radio_germany">
+       <property name="text">
+        <string>Deutsch</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radio_arabic">
+       <property name="text">
+        <string>عربي</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radio_russia">
+       <property name="text">
+        <string>Русский</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btn_ekle">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>370</y>
+      <width>109</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ekle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_guncelle">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>420</y>
+      <width>109</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>güncelle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_veriCek">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>470</y>
+      <width>109</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Veri Çek</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_yukari">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>520</y>
+      <width>109</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>yukarı</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_asagi">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>570</y>
+      <width>109</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>aşağı</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_sirala">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>620</y>
+      <width>109</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sırala</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_sil">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>670</y>
+      <width>109</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sil</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_exit">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>720</y>
+      <width>109</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Çıkış</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1401</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../SQL Database/image.qrc"/>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

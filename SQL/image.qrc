@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>image.qrc</file>
+    <file>py.png</file>
+    <file>lgo.png</file>
+    <file>yazilim.png</file>
+  </qresource>
+</RCC>
