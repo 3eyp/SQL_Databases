@@ -35,9 +35,6 @@ class MyApp(QtWidgets.QMainWindow):
         self.ui.lbl_ulke_3.setStyleSheet("font: 12pt 'MV Boli';border-radius:10px;color:rgb(170, 255, 255);")
 
 
-
-
-
         self.ui.btn_ekle.setStyleSheet("border-radius:8px;background-color:qlineargradient(spread:pad, x1:0.165, y1:0.840909, x2:1, y2:0, stop:0 rgba(0, 43, 107, 255), stop:1 rgba(255, 255, 255, 255));color:rgb(255, 170, 0);font: 75 10pt 'MS Shell Dlg 2';color: rgb(210, 252, 255);")
         self.ui.btn_guncelle.setStyleSheet("border-radius:8px;background-color:qlineargradient(spread:pad, x1:0.165, y1:0.840909, x2:1, y2:0, stop:0 rgba(0, 43, 107, 255), stop:1 rgba(255, 255, 255, 255));color:rgb(255, 170, 0);font: 75 10pt 'MS Shell Dlg 2';color: rgb(210, 252, 255);")
         self.ui.btn_yukari.setStyleSheet("border-radius:8px;background-color:qlineargradient(spread:pad, x1:0.165, y1:0.840909, x2:1, y2:0, stop:0 rgba(0, 43, 107, 255), stop:1 rgba(255, 255, 255, 255));color:rgb(255, 170, 0);font: 75 10pt 'MS Shell Dlg 2';color: rgb(210, 252, 255);")
@@ -65,7 +62,7 @@ class MyApp(QtWidgets.QMainWindow):
         if index is not None:
             text,ok=QInputDialog.getText(self,"Veri ekle","İsim giriniz")
             if text and ok is not None:
-                self.ui.listWidget_data.insertItem(index,text)
+                self.ui.listWidget_data.insertItem(index,text.capitalize())
             else:
                 return
 
@@ -80,7 +77,7 @@ class MyApp(QtWidgets.QMainWindow):
             if ok== False:
                 self.ui.listWidget_data.insertItem(index,item.text())
             else:
-                self.ui.listWidget_data.insertItem(index,text)
+                self.ui.listWidget_data.insertItem(index,text.capitalize())
 
     def yukari(self):
         index = self.ui.listWidget_data.currentRow()
