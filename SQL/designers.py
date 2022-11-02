@@ -99,9 +99,9 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton_7.setText(_translate("MainWindow", "Verileri Gör"))
+        self.pushButton_7.setText(_translate("MainWindow", "Veriler (SQL)"))
         self.lbl_data.setText(_translate("MainWindow", "Veriler"))
-        self.lbl_ulke_3.setText(_translate("MainWindow", "@ python3740"))
+        self.lbl_ulke_3.setText(_translate("MainWindow", "inst: python3740"))
         self.lbl_ulke.setText(_translate("MainWindow", "Dil"))
         self.radio_tr.setText(_translate("MainWindow", "Türkçe"))
         self.radio_england.setText(_translate("MainWindow", "English"))

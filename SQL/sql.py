@@ -42,7 +42,8 @@ class MyApp(QtWidgets.QMainWindow):
         self.ui.btn_sil.setStyleSheet("border-radius:8px;background-color:qlineargradient(spread:pad, x1:0.165, y1:0.840909, x2:1, y2:0, stop:0 rgba(0, 43, 107, 255), stop:1 rgba(255, 255, 255, 255));color:rgb(255, 170, 0);font: 75 10pt 'MS Shell Dlg 2';color: rgb(210, 252, 255);")
         self.ui.btn_exit.setStyleSheet("border-radius:8px;background-color:qlineargradient(spread:pad, x1:0.165, y1:0.840909, x2:1, y2:0, stop:0 rgba(0, 43, 107, 255), stop:1 rgba(255, 255, 255, 255));color:rgb(255, 0, 0);font: 75 12pt 'MS Shell Dlg 2';color: rgb(176, 249, 255);")
         self.ui.btn_sirala.setStyleSheet("border-radius:8px;background-color:qlineargradient(spread:pad, x1:0.165, y1:0.840909, x2:1, y2:0, stop:0 rgba(0, 43, 107, 255), stop:1 rgba(255, 255, 255, 255));color:rgb(255, 170, 0);font: 75 10pt 'MS Shell Dlg 2';color: rgb(210, 252, 255);")
-
+        self.ui.pushButton_7.setStyleSheet("border-radius:8px;background-color:qlineargradient(spread:pad, x1:0.165, y1:0.840909, x2:1, y2:0, stop:0 rgba(0, 43, 107, 255), stop:1 rgba(255, 255, 255, 255));color:rgb(255, 170, 0);font: 75 10pt 'MS Shell Dlg 2';color: rgb(210, 252, 255);")
+        
         self.item()
 
         self.ui.btn_ekle.clicked.connect(self.ekle)
@@ -55,7 +56,7 @@ class MyApp(QtWidgets.QMainWindow):
 
 
     def item(self):
-        self.ui.listWidget_data.addItems(["Mert", "Ali", "Osman"])
+        self.ui.listWidget_data.addItems(["Eyup", "Mesut", "Yusuf"])
 
     def ekle(self):
         index=self.ui.listWidget_data.currentRow()
